@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kunal Dice </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <style>
+        body
+        {
+            margin:auto;
+            text-align: center;
+            background-image:radial-gradient(white,rgb(26, 177, 204) 90%);
+        }
+        h1{
+         font-family: 'Lobster' , cursive;
+         font-size:100px;
+         margin:10px auto;
+         color:#fd0015;
+        }
+        #roll{
+            width:150px;
+            height:40px;
+            margin:20px;
+            font-size: 1.2rem;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-weight:700;color:white;
+            border:none;
+            background:#21d4fd;
+            background-image:linear-gradient(19deg,red 0%,#b721ff 100%) ;
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+  
+    <h1>Click me!</h1>
+    <div id="result"></div>
+    <button" onclick="roll()" id="roll">Shuffle</button>
+    <script>
+        function roll()
+        {
+            document.getElementById('result').innerHTML="<img src='E:\Projects/loader.gif'/>";
+            setTimeout(function () {
+            var random= Math.floor(Math.random()*6)+1;
+            document.getElementById('result').innerHTML="<img src='E:\Projects/"+random+".png'/>";
+            },2000);
+        }
+         </script>
+</body>
+</html>

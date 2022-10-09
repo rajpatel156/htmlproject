@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <style>
+        .heading {
+            color: #0F52BA;
+        }
+
+        .con {
+            margin-top: 20px;
+            margin-left: 40%;
+        }
+
+        .con1 {
+            margin-top: 20px;
+            margin-left: 40%;
+        }
+
+        .con2 {
+
+            margin-left: 10%;
+            transform:translate(0px,-350px);
+
+
+        }
+
+        .con3 {
+           
+            margin-left: 70%;
+            transform:translate(0px,-600px);
+        }
+    </style>
+</head>
+
+<body>
+    <h1 align='center ' class='heading'>Get Countries Little Information</h1>
+    <form class="row g-3 con">
+        <div class="col-auto ">
+            <label for="inputPassword2" class="visually-hidden">Country Name</label>
+            <input type="Text" class="form-control heading" id="countryname" placeholder="Country Name">
+        </div>
+        <div class="col-auto">
+            <button type="button" class="btn btn-primary mb-3" id="info">SHOW INFO</button>
+        </div>
+    </form>
+
+    <div id="container" class='con1 heading'></div>
+    <div id="container2" class='con2 heading'></div>
+    <div id="container3" class='con3 heading'></div>
+</body>
+<script src="script.js"></script>
+
+</html>

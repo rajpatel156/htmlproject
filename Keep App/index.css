@@ -1,0 +1,90 @@
+.con {
+    background-color: #5C3D2E;
+}
+
+.fa-clipboard {
+    color: #E0C097;
+}
+
+.noteBtn {
+    border: 1px solid;
+    min-width: auto;
+    min-height: auto;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-left: 90%;
+
+    align-content: center;
+    color: #B85C38;
+    border-color: #B85C38;
+    padding-top: 5px;
+
+}
+
+.noteBtn:hover {
+    color: #ffffff;
+    border-color: #ffffff;
+    background-color: #B85C38;
+    cursor: pointer;
+
+}
+
+    
+.notes{
+    margin-left: 5px;
+    width: 300px;
+    height: 200px;
+    background-color: ffffff;
+    border: 1px solid;
+    margin-top: 10px;          
+              
+}
+
+.btns{
+    margin-left: 80%;
+    
+}
+
+.edit{
+    color:#8BC34A;
+    font-size: small;
+}
+.edit:hover{
+    color:#388E3C;
+    font-size: large;
+}
+.del :hover{
+    color:#BD1616;
+    font-size: large;
+}
+.del{
+    color:#FF2626;
+    font-size: small;
+    padding-left: 10px;
+
+}
+.hidden{
+    display: none;
+}
+.con1{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+textarea{
+   border:none; 
+   text-decoration:none; 
+   height: 150px;
+   outline:none;
+   margin-left: 10px;
+    
+}
+.main{
+    margin: 10px;
+   padding: 5px;
+   background-color: #E0C097;
+   box-sizing: cover;
+}
